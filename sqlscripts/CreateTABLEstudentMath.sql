@@ -1,0 +1,38 @@
+CREATE SCHEMA [Student]
+GO
+CREATE TABLE [Student].[studentMath](
+	[school] [nvarchar](50) NOT NULL,
+	[sex] [nvarchar](50) NOT NULL,
+	[age] [int] NOT NULL,
+	[address] [nvarchar](50) NOT NULL,
+	[famsize] [nvarchar](50) NOT NULL,
+	[Pstatus] [nvarchar](50) NOT NULL,
+	[Medu] [int] NOT NULL,
+	[Fedu] [int] NOT NULL,
+	[Mjob] [nvarchar](50) NOT NULL,
+	[Fjob] [nvarchar](50) NOT NULL,
+	[reason] [nvarchar](50) NOT NULL,
+	[guardian] [nvarchar](50) NOT NULL,
+	[traveltime] [int] NOT NULL,
+	[studytime] [int] NOT NULL,
+	[failures] [int] NOT NULL,
+	[schoolsup] [nvarchar](50) NOT NULL,
+	[famsup] [nvarchar](50) NOT NULL,
+	[paid] [nvarchar](50) NOT NULL,
+	[activities] [nvarchar](50) NOT NULL,
+	[nursery] [nvarchar](50) NOT NULL,
+	[higher] [nvarchar](50) NOT NULL,
+	[internet] [nvarchar](50) NOT NULL,
+	[romantic] [nvarchar](50) NOT NULL,
+	[famrel] [int] NOT NULL,
+	[freetime] [int] NOT NULL,
+	[goout] [int] NOT NULL,
+	[Dalc] [int] NOT NULL,
+	[Walc] [int] NOT NULL,
+	[health] [int] NOT NULL,
+	[absences] [int] NOT NULL,
+	[G1] [int] NOT NULL,
+	[G2] [int] NOT NULL,
+	[G3] [int] NOT NULL
+) ON [PRIMARY]
+GO
