@@ -17,7 +17,7 @@ Select Contributor
 
 ![contrib](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/contrib.png)
 
-+ Select members to add 
+  `+ Select members to add`
 
 ![selectmemb](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/selectmemb.png)
 
@@ -36,3 +36,5 @@ The member must show up as a Contributor
 ![rpreg2](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/rpreg2.png)
 
 4. Have one of the users test that they can deploy an Azure Machine Learning Workspace using the ML Accelerator ARM template [here](https://github.com/DataSnowman/analytics-accelerator#deploy-an-azure-machine-learning-workspace) using the directions in the ML workshop [ReadMe](https://github.com/DataSnowman/MLworkshop/blob/main/README.md)
+
+![deployamlws](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/deployamlws.png)
