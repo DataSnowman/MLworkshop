@@ -17,7 +17,7 @@ Select Contributor
 
 ![contrib](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/contrib.png)
 
-  `+ Select members to add`
+  `+ Select members` to add
 
 ![selectmemb](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/selectmemb.png)
 
