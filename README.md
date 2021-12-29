@@ -92,9 +92,11 @@ Once the cluster is created you can use it for AutoML as well as Designer Comput
 
 4. Use Jupyter in Compute instance
 
-5. Use AutoML with One Hot Encoded dataset
+5. Use AutoML with One Hot Encoded dataset created in Jupyter
 
-6. Stop the Compute instance and/or to Cleanup resources following completion of the ML Workshop
+6. Deploy Model to Azure ML Endpoint and consume in Power BI
+
+7. Stop the Compute instance and/or to Cleanup resources following completion of the ML Workshop
 
 Once the workshop is over you should at least Stop the Compute instance running Jupyter.  To stop the Compute instance click on the instance Name and select stop.  You can also go back and Start the Compute instance VM when you need it.
 
