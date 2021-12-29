@@ -46,4 +46,56 @@ Here is what Studio should look like:
 
 ![amls](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/amls.png)
 
+2. Create a Compute instance
 
+Click on Compute under the Manage section, choose Compute instances, and click on +New
+
+![computeinst](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/computeinst.png)
+
+Go with the recommended CPU Option and click `Create`
+
+![createcomp](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/createcomp.png)
+
+This will start creating the compute instance for your Jupyter Notebook
+
+![creating](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/creating.png)
+
+Click the Jupyter link under Applications
+
+![jrunning](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/jrunning.png)
+
+Your Jupyter environment should look like this:
+
+![jupyter](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/jupyter.png)
+
+3. Create a Compute cluster for use with AutoML
+
+Under Compute click on Compute clusters, then click +New
+
+![cluster](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/cluster.png)
+
+Go with the same Location where your deployed your AML workspace (i.e. West US 2). Choose Dedicated, CPU, Select from recommended options, General purpose and click `Next`
+
+![selectvm](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/selectvm.png)
+
+Give it a Compute name like <initials>cpucluster, Min 0, Max 3 and click `Create`
+
+![clustername](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/clustername.png)
+
+Once the cluster is created you can use it for AutoML as well as Designer Compute (Note that the cluster spins down to zero when it is not being used)
+
+![resizing](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/resizing.png)
+
+4. Stop the Compute instance and/or to Cleanup resources following completion of the ML Workshop
+
+Once the workshop is over you should at least Stop the Compute instance running Jupyter.  To stop the Compute instance click on the instance Name and select stop.  You can also go back and Start the Compute instance VM when you need it.
+
+![jrunning](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/jrunning.png)
+
+To delete all the resources created for the workshop once you have completed the workshop the resources can be deleted by deleting the Resource Group.  Click on Delete resource group
+
+![deleterg](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/deleterg.png)
+
+To confirm this is what you want to do, enter the name of the Resource Group and click Delete
+
+![confirm](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/confirm.png)
