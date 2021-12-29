@@ -10,7 +10,9 @@ If you are not an Owner, Co-Administrator or Contributor of your Azure Subscript
 
 1. Deploy an Azure Machine Learning Workspace using the ML Accelerator ARM template [here](https://github.com/DataSnowman/analytics-accelerator#deploy-an-azure-machine-learning-workspace)
 
-Click the Deploy to Azure button
+### Note: To keep this Readme open and have the ML Accelerator open in a new browser tab, right click the `here` link and select `Open link in a new tab`
+
+* Click the Deploy to Azure button
 
 ![deployamlws](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/deployamlws.png)
 
@@ -92,11 +94,21 @@ Once the cluster is created you can use it for AutoML as well as Designer Comput
 
 4. Use Jupyter in Compute instance
 
-5. Use AutoML with One Hot Encoded dataset created in Jupyter
+Click [Jupyter Notebook](https://github.com/DataSnowman/MLworkshop/blob/main/exercises/jupyterNotebook.md) for instructions on how to clone this GitHub Repo from Jupyter in your Compute instance, and modify and create notebooks
 
-6. Deploy Model to Azure ML Endpoint and consume in Power BI
+5. Use AutoML with One Hot Encoded dataset created in Jupyter notebook
 
-7. Stop the Compute instance and/or to Cleanup resources following completion of the ML Workshop
+Click [AutoML](https://github.com/DataSnowman/MLworkshop/blob/main/exercises/automl.md) for instructions on how to use the One Hot Encoded dataset created in the Jupyter notebook to run on a CPU compute cluster
+
+6. Deploy Model to Azure ML Endpoint
+
+Click [Deploy Model](https://github.com/DataSnowman/MLworkshop/blob/main/exercises/deployModel.md) for instructions on how to deploy one of the AutoML models created by AutoML using your Compute cluster
+
+7. Consume the deployed model in Power BI
+
+Click [Consume Model in Power BI](https://github.com/DataSnowman/MLworkshop/blob/main/exercises/consumeModelpbi.md) for instructions on how to consume the deployed model using your Power BI
+
+8. Stop the Compute instance and/or to Cleanup resources following completion of the ML Workshop
 
 Once the workshop is over you should at least Stop the Compute instance running Jupyter.  To stop the Compute instance click on the instance Name and select stop.  You can also go back and Start the Compute instance VM when you need it.
 
