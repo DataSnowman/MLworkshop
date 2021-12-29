@@ -2,9 +2,9 @@
 
 ## Citation: The data used in this exercise is derived from [Student Performance Data Set](http://archive.ics.uci.edu/ml/datasets/Student+Performance)
 
-## Prerequists
+## Prerequisites
 
-If you are not an Owner, Co-Administrator or Contributor of your Azure Subscription you will need to an Administrator to create an Azure Resource Group for you and provider you with Contributor access at the Resource Group level for the Resource Group.  See [Prerequists](https://github.com/DataSnowman/MLworkshop/blob/main/prereqs/azureresources.md) for details
+If you are not an Owner, Co-Administrator or Contributor of your Azure Subscription you will need to an Administrator to create an Azure Resource Group for you and provider you with Contributor access at the Resource Group level for the Resource Group.  See [Prerequisites](https://github.com/DataSnowman/MLworkshop/blob/main/prereqs/azureresources.md) for details
 
 ## Deploy an Azure Machine Learning Workspace
 
