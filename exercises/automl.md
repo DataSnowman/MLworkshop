@@ -47,7 +47,11 @@ This should start the AutoML run
 
 ![run](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/run.png)
 
-The run will take about ?minutes.  Depending the type of Compute you chose for the Compute cluster and the size of the cluster.
+The run will take about 30 minutes.  Depending the type of Compute you chose for the Compute cluster and the size of the cluster.
+
+![complete](https://raw.githubusercontent.com/DataSnowman/MLworkshop/main/images/complete.png)
+
+Go to the [Deploy Model](https://github.com/DataSnowman/MLworkshop/blob/main/exercises/deployModel.md) exercise for the next steps for deploying on of the AutoML models to an AML Endpoint.
 
 
 
